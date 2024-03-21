@@ -1,2 +1,2 @@
-# portfolio
-Portfólio | React e TailwindCSS | @adriwco
+## Portfólio | Status: planejamento📋
+React e TailwindCSS - @adriwco
