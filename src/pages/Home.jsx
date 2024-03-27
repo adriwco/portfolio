@@ -1,11 +1,35 @@
 import ThemeToggle from '../components/ThemeToggle';
+import Container from '../components/Container';
+import LiNavH from '../components/LiNavH';
 
 const Home = () => {
   return (
-    <>
-      <ThemeToggle />
-      <h1 className="p-5 bg-white dark:bg-black dark:text-blue-500">teste</h1>
-    </>
+    <header className="py-10 bg-fundo-1 dark:bg-fundo-0">
+      <Container>
+        <div className="flex items-center justify-between">
+          <div className="w-[150px] h-[38px] bg-logo dark:bg-logo-d"></div>
+          <div className="flex items-center">
+            <nav>
+              <ul className="flex items-center gap-4">
+                <li>
+                  <LiNavH to="/">Experiência</LiNavH>
+                </li>
+                <li>
+                  <LiNavH to="/">Formação</LiNavH>
+                </li>
+                <li>
+                  <LiNavH to="/">Contato</LiNavH>
+                </li>
+                <li>
+                  <LiNavH to="/">GitHub</LiNavH>
+                </li>
+              </ul>
+            </nav>
+            <ThemeToggle />
+          </div>
+        </div>
+      </Container>
+    </header>
   );
 };
 
