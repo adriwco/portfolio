@@ -1,3 +1,3 @@
 ## Portfólio | Status: planejamento📋
 
-React e TailwindCSS - @adriwco
+React e TailwindCSS - @adriwco / Projeto existente em html, css e js
