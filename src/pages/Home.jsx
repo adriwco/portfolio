@@ -1,35 +1,12 @@
-import ThemeToggle from '../components/ThemeToggle';
-import Container from '../components/Container';
-import LiNavH from '../components/LiNavH';
+import FirstSection from '../components/FirstSection';
+import Header from '../components/Header';
 
 const Home = () => {
   return (
-    <header className="py-10 bg-fundo-1 dark:bg-fundo-0">
-      <Container>
-        <div className="flex items-center justify-between">
-          <div className="w-[150px] h-[38px] bg-logo dark:bg-logo-d"></div>
-          <div className="flex items-center">
-            <nav>
-              <ul className="flex items-center gap-4">
-                <li>
-                  <LiNavH to="/">Experiência</LiNavH>
-                </li>
-                <li>
-                  <LiNavH to="/">Formação</LiNavH>
-                </li>
-                <li>
-                  <LiNavH to="/">Contato</LiNavH>
-                </li>
-                <li>
-                  <LiNavH to="/">GitHub</LiNavH>
-                </li>
-              </ul>
-            </nav>
-            <ThemeToggle />
-          </div>
-        </div>
-      </Container>
-    </header>
+    <>
+      <Header />
+      <FirstSection />
+    </>
   );
 };
 

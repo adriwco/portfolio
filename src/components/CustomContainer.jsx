@@ -1,13 +1,13 @@
 import PropTypes from 'prop-types';
 
-const Container = ({ children }) => {
+const CustomContainer = ({ children }) => {
   return (
     <div className="w-full max-w-[1246px] px-[15px] mx-auto">{children}</div>
   );
 };
 
-Container.propTypes = {
+CustomContainer.propTypes = {
   children: PropTypes.node,
 };
 
-export default Container;
+export default CustomContainer;

@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        playfair: ['"Playfair Display SC"', 'serif'],
+        playfair: ['"Playfair Display SC"', 'Georgia'],
       },
       colors: {
         primeira: '#f56260',
@@ -32,6 +32,7 @@ export default {
         logo: "url('./src/assets/marcaA.svg')",
         'link-icon-d': "url('./link-branco.svg')",
         'logo-d': "url('./src/assets/marcaB.svg')",
+        detalhe: "url('./src/assets/detalhe.svg')",
       },
     },
   },
