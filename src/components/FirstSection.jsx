@@ -10,8 +10,8 @@ const FirstSection = () => {
             <div className="py-9 max-w-[360px] ">
               <img className="rounded-3xl" src={Fotografia} alt="" />
             </div>
-            <div className="mx-auto my-auto relative">
-              <div className="absolute block w-32 h-24 bg-center bg-no-repeat top-[-15px] left-[-40px] bg-detalhe" />
+            <div className="mx-auto my-auto relative pl-5">
+              <div className="absolute block w-32 h-24 bg-center bg-no-repeat top-[-15px] left-[-20px] bg-detalhe" />
               <h1 className="text-fonte-cor-1 dark:text-fonte-cor-1-d font-playfair text-7xl leading-none mb-8 tracking-wide relative">
                 <div>Desenvolvimento</div>
                 <div>Front End &</div>
