@@ -12,16 +12,19 @@ const Header = () => {
             <nav>
               <ul className="flex items-center gap-4">
                 <li>
-                  <LiNavH to="/">Experiência</LiNavH>
+                  <LiNavH to="/">Home</LiNavH>
                 </li>
                 <li>
-                  <LiNavH to="/">Formação</LiNavH>
+                  <LiNavH to="/experiencia">Experiência</LiNavH>
                 </li>
                 <li>
-                  <LiNavH to="/">Contato</LiNavH>
+                  <LiNavH to="/formacao">Formação</LiNavH>
                 </li>
                 <li>
-                  <LiNavH to="/">GitHub</LiNavH>
+                  <LiNavH to="/contato">Contato</LiNavH>
+                </li>
+                <li>
+                  <LiNavH to="https://github.com/adriwco">GitHub</LiNavH>
                 </li>
               </ul>
             </nav>
